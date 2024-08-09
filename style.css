@@ -36,6 +36,22 @@ header span{
     background-color: #F5DD61;
 }
 
+#habilidades h1 {
+    position: relative;
+}
+
+#habilidades h1::after {
+    content: '';
+    display: block;
+    width: 1450px;
+    height: 4px;
+    background: #00ffff6c; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
 .icon-square {
     display: flex;
     align-items: center;
@@ -44,14 +60,30 @@ header span{
     width: 3rem;
     height: 3rem;
     border-radius: 12px;
-    font-size: 1.5rem; /* Ajusta el tamaño del ícono según sea necesario */
+    font-size: 1.5rem; 
+}
+
+#proyectos h1 {
+    position: relative;
+}
+
+#proyectos h1::after {
+    content: '';
+    display: block;
+    width: 1450px;
+    height: 4px;
+    background: #00ffff6c; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
 }
 
 .img-proyec1 {
     background-image: url(/imagenes/pint.png);
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-size: cover; 
     background-repeat: no-repeat;
-    position: relative; /* Necesario para colocar el pseudo-elemento */
+    position: relative; 
 }
 
 .img-proyec1::after {
@@ -117,6 +149,22 @@ header span{
 .img-proyec3 .d-flex.flex-column {
     position: relative;
     z-index: 2; 
+}
+
+#testimonios h1 {
+    position: relative;
+}
+
+#testimonios h1::after {
+    content: '';
+    display: block;
+    width: 1450px;
+    height: 4px;
+    background: #00ffff6c; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
 }
 
 .card{
